@@ -5,11 +5,11 @@ body, html {
 @font-face 
    {
     font-family: Jersey; 
-    src: url(C:/Fabr87.github.io/fonts/20442.ttf); 
+    src: url(../fonts/20442.ttf); 
    }
 .bgimg {
     /* Background image */
-    background-image: url('C:/Fabr87.github.io/images/space.jpg');
+    background-image: url('../images/space.jpg');
     /* Full-screen */
     height: 100%;
     /* Center the background image */

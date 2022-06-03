@@ -34,14 +34,8 @@
  <body background="images/chevron.png">
 
      <h1 align="center">  Определенно самый лучший сайт.</h1>
-     <p align="center">Hello, Misha!.</p>
-     <p align="center">Hello, MAIN!.</p>
+     <p align="center" id="hello">Hello, Anon!</p>
 
-     <h1 align="center">НЕУЖЕЛИ МОЖНО НАЧИНАТЬ ДЕЛАТЬ</h1>
-     <h1 align="center">НЕУЖЕЛИ</h1>
-     <h1 align="center">НЕУЖЕЛИ work</h1>
-     <h1 align="center">НЕУЖЕЛИ work1</h1>
-     <p align="center">СДЕЛАЛ НА ЛОКАЛЬНОЙ ВЕТКЕ test</p>
 
      <!--
     <div align="center">
@@ -53,6 +47,13 @@
             btn.onclick=function(){if(!document.getElementById('img')){var image=document.createElement('img');image.id="img";image.src="images/1.jpg";image.width="720";image.height="960";image.align="middle";document.body.appendChild(image)}}
         </script>
     </div>-->
+
+     
+     <div align="center">
+         <p><img src="images/favicon.bmp" id="myImage" onclick="changeImage(this)"></p>
+         <button id="btn">Новое имя</button>
+     </div>
+     <script src="scripts/main.js"></script>
  </body>
 
 </html>

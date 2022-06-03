@@ -1,12 +1,13 @@
-/* Set height to 100% for body and html to enable the background image to cover the whole page: */
 body, html {
     height: 100%
 }
+
 @font-face 
    {
     font-family: Jersey; 
     src: url(../fonts/20442.ttf); 
    }
+
 .bgimg {
     /* Background image */
     background-image: url('../images/space.jpg');
@@ -26,7 +27,6 @@ body, html {
     font-size: 25px;
 }
 
-/* Position text in the middle */
 .middle {
     position: absolute;
     top: 50%;
@@ -34,6 +34,7 @@ body, html {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
 .buttpose {
     position: absolute;
     top: 50%;
@@ -42,7 +43,7 @@ body, html {
     text-align: center;
 font-family: Jersey;
 }
-/* Style the <hr> element */
+
 hr {
     margin: auto;
     width: 40%;

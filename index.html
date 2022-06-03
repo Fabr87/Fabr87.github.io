@@ -1,43 +1,44 @@
 ﻿<!DOCTYPE html>
 <html>
- <head>
-<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-  <meta charset="utf-8">
-  <title>SHALL WE PLAY "WARZONE"?</title>
-  <style>
-   @font-face 
-   {
-    font-family: Curve; 
-    src: url(fonts/17643.otf); 
-   }
-   @font-face 
-   {
-    font-family: Jersey; 
-    src: url(fonts/20442.ttf); 
-   }
-   h1 
-   {
-    font-family: Curve; 
-    font-size: 48pt;
-   } 
-   p 
-   {
-    font-family: Jersey; 
-    font-size: 24pt;  
-   }
-   but
-   {
-    allign="center";
-   }
-  </style>
- </head> 
- <body background="images/chevron.png">
+<head>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="LearnModdedCube/TemplateData/favicon.ico">
+    <link rel="stylesheet" href="LearnModdedCube/TemplateData/style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>SHALL WE PLAY "WARZONE"?</title>
+    <style>
+        @font-face {
+            font-family: Curve;
+            src: url(fonts/17643.otf);
+        }
 
-     <h1 align="center">  Определенно самый лучший сайт.</h1>
-     <p align="center" id="hello">Hello, Anon!</p>
+        @font-face {
+            font-family: Jersey;
+            src: url(fonts/20442.ttf);
+        }
+
+        h1 {
+            font-family: Curve;
+            font-size: 48pt;
+        }
+
+        p {
+            font-family: Jersey;
+            font-size: 24pt;
+        }
+
+        but {
+            allign ="center";
+        }
+    </style>
+</head> 
+<body background="images/chevron.png">
+
+    <h1 align="center">  Определенно самый лучший сайт.</h1>
+    <p align="center" id="hello">Hello, Anon!</p>
 
 
-     <!--
+    <!--
     <div align="center">
           <button  id="btn" align="center"> <p>Click on me!</p></button>
 
@@ -48,13 +49,30 @@
         </script>
     </div>-->
 
-     
-     <div align="center">
-         <p><img src="images/favicon.bmp" id="myImage" onclick="changeImage(this)" width="100" height="100"></p>
-         <button id="btn">Новое имя</button>
-     </div>
-     <script src="scripts/main.js"></script>
- </body>
+
+    <div align="center">
+        <p><img src="images/favicon.bmp" id="myImage" onclick="changeImage(this)" width="100" height="100"></p>
+        <button id="btn">Новое имя</button>
+    </div>
+
+    <div id="unity-container" class="unity-desktop">
+        <canvas id="unity-canvas" width=960 height=600></canvas>
+        <div id="unity-loading-bar">
+            <div id="unity-logo"></div>
+            <div id="unity-progress-bar-empty">
+                <div id="unity-progress-bar-full"></div>
+            </div>
+        </div>
+        <div id="unity-warning"> </div>
+        <div id="unity-footer">
+            <div id="unity-webgl-logo"></div>
+            <div id="unity-fullscreen-button"></div>
+            <div id="unity-build-title">ModedCube</div>
+        </div>
+    </div>
+    <script src="scripts/CubeGame.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
 
 </html>
 

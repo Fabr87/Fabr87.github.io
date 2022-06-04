@@ -24,6 +24,11 @@ p           {
 			text-align:center;
             }
 			
+p2          {
+            font-family: Jersey;
+            font-size: 48pt;
+			text-align:center;
+            }
 .bgimg1 {
 	background-image: url('../images/chevron.png');
         }

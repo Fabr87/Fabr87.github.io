@@ -23,17 +23,12 @@ p           {
             font-size: 24pt;
 			text-align:center;
             }
+			
+.bgimg1 {
+	background-image: url('../images/chevron.png');
+        }
 
-but         {
-            allign ="center";
-            }
-			
-hr          {
-             margin: auto;
-            width: 40%;
-            }
-			
-.bgimg {
+.bgimg2 {
     /* Background image */
     background-image: url('../images/space.jpg');
     /* Full-screen */

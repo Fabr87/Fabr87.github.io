@@ -23,19 +23,27 @@ body{
             }
 			
 h1          {
-            position:absolute;
-            top: 0.2em;
             font-family: Curve;
             font-size: 48pt;
 			text-align:center;
             
             }
 
+.main
+{
+    position:absolute;
+    top: 0.2em;
+}
+
 p           {
             font-family: Jersey;
             font-size: 24pt;
 			text-align:center;
             }
+#hello {
+    position:absolute;
+    top: 6em;
+}
 			
 p2          {
             font-family: Jersey;
@@ -51,6 +59,7 @@ p2          {
     background-image: url('../images/space.jpg');
     /* Full-screen */
     height: 100%;
+    
     /* Center the background image */
     background-position: center;
     /* Scale and zoom in the image */
@@ -59,10 +68,12 @@ p2          {
     position: relative;
     /* Add a white text color to all elements inside the .bgimg container */
     color: white;
-    /* Add a font */
+    /* Add a font 
     font-family: Jersey;
-    /* Set the font-size to 25 pixels */
+     Set the font-size to 25 pixels 
     font-size: 25px;
+        */
+    
 }
 
 .middle {
@@ -89,7 +100,8 @@ p2          {
 }
 
 .navMenu {
-    position: relative;
+    position: absolute;
+    left: 0;
     height: 500px;
     width: 70px;
     background: #2b343b;

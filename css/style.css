@@ -125,7 +125,7 @@ transform: translate(-50%, -50%);
     position: absolute;
     left: 0;
     height: 500px;
-    width: 70px;
+    width: 170px;
     background: #2b343b;
     box-shadow: 10px 0 0 #4187f6;
     border-left: 10px solid #2b343b;
@@ -133,10 +133,11 @@ transform: translate(-50%, -50%);
     transition: width 0.5s
 }
 
-.navMenu:hover
+/*.navMenu:hover
 {
     width: 170px;
 }
+*/
 
 .navMenu ul {
     position: absolute;

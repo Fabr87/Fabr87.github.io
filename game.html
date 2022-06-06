@@ -1,23 +1,21 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="LearnModdedCube/TemplateData/style.css">
     <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="scripts/timer.js"></script>
-<script type="text/javascript" src="scripts/spoiler.js"></script>
-    <title>TO CHILL OR NOT TO CHILL?</title>
+    <title>Game</title>
 </head>
-<body class="bgimg2">
-
+<body>
     <div class="navMenu">
         <ul>
-            <li class="list ">
+            <li class="list">
                 <a href="index.html">
                     <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
                     <span class="title">Главная</span>
                 </a>
             </li>
-            <li class="list active">
+            <li class="list">
                 <a href="timerpage.html">
                     <span class="icon"><ion-icon name="timer-outline"></ion-icon></span>
                     <span class="title">Таймер</span>
@@ -29,7 +27,7 @@
                     <span class="title">Контакты</span>
                 </a>
             </li>
-            <li class="list">
+            <li class="list active">
                 <a href="game.html">
                     <span class="icon"><ion-icon name="game-controller-outline"></ion-icon></span>
                     <span class="title">Игра</span>
@@ -37,30 +35,22 @@
             </li>
         </ul>
     </div>
-
-    <div>
-        <div class="middle">
-            <p2>Time to chill...</p2>
-            <p id="demo" style="font-size:30px"></p>
+    <div id="unity-container" class="unity-desktop">
+        <canvas id="unity-canvas" width=960 height=600></canvas>
+        <div id="unity-loading-bar">
+            <div id="unity-logo"></div>
+            <div id="unity-progress-bar-empty">
+                <div id="unity-progress-bar-full"></div>
+            </div>
         </div>
-        <div class="buttpose">
-            <form action="index.html" target="_self">
-                <button class="buttstyle">
-                    Back to main page
-                </button>
-            </form>
+        <div id="unity-warning"> </div>
+        <div id="unity-footer">
+            <div id="unity-webgl-logo"></div>
+            <div id="unity-fullscreen-button"></div>
+            <div id="unity-build-title">ModedCube</div>
         </div>
-
-  <div class="buttpose1">
-         <button class="buttstyle" onClick="open_close('spoiler1')">
-            SPOILER
-         </button>
-     <div id="spoiler1" class="spoilerpose" style="display: none;">
-         <img src="images/bonk.jpg" alt="BONK" width="500">
-     </div>
-  </div>
-</div>
-    <script src="scripts/navMenu.js"></script>
+    </div>
+    <script src="scripts/CubeGame.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>

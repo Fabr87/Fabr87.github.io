@@ -9,7 +9,8 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #232c33;
+   /* background: #232c33;*/
+    background: #586e80;
 }
 
 @font-face  {
@@ -96,15 +97,15 @@ p2          {
 .buttpose {  
     transform: translate(-50%, -50%);
 	position: absolute;
-	top: 75%;
-	left: 50%;
+	top: 5%;
+	right: 0%;
     text-align: center;
 }
 
 .buttpose1 {  
 transform: translate(-50%, -50%);
 	position: absolute;
-	top: 5%;
+	top: 10%;
 	right: 0%;
         text-align: center;
 }
@@ -114,6 +115,34 @@ transform: translate(-50%, -50%);
     height: 50px;
     text-align: center;
     font-family: Jersey;
+}
+
+.floating-button {
+  text-decoration: none;
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 15px;
+  margin: 10px 20px;
+  font-family: Yanone;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #000000;
+  background: white;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  transition: .3s;
+}
+
+.floating-button:hover {
+  background: #2ea2e5;
+  /*box-shadow: 0 15px 20px rgba(46, 229, 157, .4);*/
+  box-shadow: 0 15px 20px rgba(46, 162, 229, .3);
+  color: white;
+  transform: translateY(-7px);
 }
 
 .spoilerpose {

@@ -16,6 +16,11 @@ body{
             font-family: Jersey; 
             src: url(../fonts/20442.ttf); 
             }
+
+@font-face  {
+            font-family: Yanone; 
+            src: url(../fonts/YanoneKaffeesatz-Regular.ttf); 
+            }
 			
 @font-face  {
             font-family: Curve;
@@ -25,8 +30,12 @@ body{
 h1          {
             font-family: Curve;
             font-size: 48pt;
-			text-align:center;
+	        text-align:center;
             
+            }
+
+.title      {
+            font-family: Yanone;
             }
 
 .main
@@ -41,9 +50,9 @@ p           {
 			text-align:center;
             }
 #hello {
-    position:absolute;
-    top: 6em;
-}
+            position:absolute;
+            top: 6em;
+       }
 			
 p2          {
             font-family: Jersey;
@@ -126,7 +135,7 @@ transform: translate(-50%, -50%);
 
 .navMenu:hover
 {
-    width: 150px;
+    width: 170px;
 }
 
 .navMenu ul {

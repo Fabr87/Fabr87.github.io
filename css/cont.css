@@ -1,0 +1,74 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+.nesolestag-enadenud {
+  width: 615px;
+  margin: 0 auto;
+}
+.tiitle {
+     position: absolute;
+     top: 10%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+}
+
+h4      {
+     font-family: Yanone;
+     font-size: 48pt;	    
+        }
+
+.wallpaper {
+     background-image: url('../images/background.png');
+           }
+
+.kesednsoled:after,
+.kesednsoled:before {
+  content: ".";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+  clear: both;
+}
+.ico-wrap {
+  color: #0000ff;
+  width: 48px;
+  height: 48px;
+  margin: 30px 18px 5px 5px;
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  border: 2px solid #0000ff;
+  float: left;
+  border-radius: 30px;
+}
+.ico-contact {
+  line-height: 1.9 !important;
+}
+.meanous-andscoev {
+  float: left;
+  margin-bottom: 20px;
+}
+.aio-icon-title {
+  font-size: 24px;
+  color: #0000ff;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.aio-icon-description {
+  font-family: Yanone;
+}
+
+@media (max-width: 767px) {
+  .meanous-andscoev,
+  .ico-wrap {
+  float: none;
+  text-align: center;
+  }
+  .ico-wrap {
+  margin: 0 auto 15px auto;
+  }
+}

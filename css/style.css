@@ -139,15 +139,14 @@ transform: translate(-50%, -50%);
 
 .floating-button:hover {
   background: #2ea2e5;
-  /*box-shadow: 0 15px 20px rgba(46, 229, 157, .4);*/
   box-shadow: 0 15px 20px rgba(46, 162, 229, .3);
   color: white;
   transform: translateY(-7px);
 }
 
-.spoilerpose {
-    position: fixed;
-    right: 0; top: 60;
+.spoiler {
+    position: inherit;
+    right: 0;
 }
 
 .navMenu {

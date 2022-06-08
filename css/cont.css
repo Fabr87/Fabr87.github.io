@@ -1,8 +1,20 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 .nesolestag-enadenud {
-  width: 615px;
-  margin: 0 auto;
+    width: 300px;
+    height: 450px;
+    vertical-align: middle;
+    border: 2px solid #000000;
+    background: linear-gradient(45deg, #dba593, #abced4);
+    display: block;
+    border-radius: 50px;
 }
+.contain {
+    position: relative;
+    vertical-align: middle;
+    top: 10%;
+    left: 5%;
+}
+
 .tiitle {
      position: absolute;
      top: 10%;

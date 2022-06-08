@@ -141,7 +141,11 @@ transform: translate(-50%, -50%);
   background: #2ea2e5;
   box-shadow: 0 15px 20px rgba(46, 162, 229, .3);
   color: white;
-  transform: translateY(-7px);
+}
+
+.floating-button:active {
+        transform: translateY(-7px);
+     
 }
 
 .spoiler {

@@ -4,6 +4,7 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="scripts/timer.js"></script>
+    <script type="text/javascript" src="scripts/buttonChange.js"></script>
     <script src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="scripts/spoiler.js"></script>
     <title>TO CHILL OR NOT TO CHILL?</title>
@@ -51,7 +52,7 @@
         </div>
 
         <div class="buttpose1">
-            <button class="floating-button">
+            <button onclick="return ChangeBgColor(this);" class="floating-button">
                 SPOILER
             </button>
             <div class="spoiler" style="display:none;">

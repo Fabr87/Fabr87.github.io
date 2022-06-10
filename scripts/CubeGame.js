@@ -30,11 +30,11 @@ function unityShowBanner(msg, type) {
 }
 
 var buildUrl = "LearnModdedCube/Build";
-var loaderUrl = buildUrl + "/LearnModedCube.loader.js";
+var loaderUrl = buildUrl + "/WebTest.loader.js";
 var config = {
-    dataUrl: buildUrl + "/LearnModedCube.data",
-    frameworkUrl: buildUrl + "/LearnModedCube.framework.js",
-    codeUrl: buildUrl + "/LearnModedCube.wasm",
+    dataUrl: buildUrl + "/WebTest.data",
+    frameworkUrl: buildUrl + "/WebTest.framework.js",
+    codeUrl: buildUrl + "/WebTest.wasm",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "lewdqt",
     productName: "ModedCube",
